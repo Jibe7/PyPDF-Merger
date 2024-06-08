@@ -5,6 +5,7 @@ I usually used online PDF mergers but I don't like doing that when working with 
 2. Create a user interface where we can drag and drop the PDFs to merge as well as choosing the name and location of the output file.
 ## Requirements
 Use a different Python GUI library that what I used in my previous project (password manager, with customtkinter).
+I want to try out https://sciter.com/ which allow to use HTML/CSS/JS. Moreover it is used by famous softwares (Norton, Bitfender, Comodo...).
 ## Project State
 Currently I have found how to merge PDFs using pypdf library and used it as it is when I needed it.
 Next steps would be to create a GUI so that I don't have to mess with the code each time that I want to do that.
