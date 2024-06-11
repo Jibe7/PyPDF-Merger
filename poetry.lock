@@ -18,7 +18,18 @@ docs = ["myst_parser", "sphinx", "sphinx_rtd_theme"]
 full = ["Pillow (>=8.0.0)", "PyCryptodome", "cryptography"]
 image = ["Pillow (>=8.0.0)"]
 
+[[package]]
+name = "pysciter"
+version = "0.6.9"
+description = "Python bindings for the Sciter - Embeddable HTML/CSS/script engine (cross-platform desktop GUI toolkit)."
+optional = false
+python-versions = "*"
+files = [
+    {file = "PySciter-0.6.9-py3-none-any.whl", hash = "sha256:937d56e0110956042674eee8173f8fd4fc921ccc75753fb9c0cf9d7dd1413e3f"},
+    {file = "PySciter-0.6.9.tar.gz", hash = "sha256:2f4789120829f20068ec590ff35601679d052b49b34afeb56e44b50d0b2708bd"},
+]
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "c2b0182b47a1b6c397f927e7bf515c94f8a91def7a586c08e067ab941ccbd067"
+content-hash = "3a5ac87a92ce20c7adea551a1bd31105653ba26a72164860b4924f2789bae8eb"
