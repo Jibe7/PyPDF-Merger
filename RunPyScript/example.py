@@ -14,7 +14,7 @@ Thats good
 import sciter
 
 if __name__ == "__main__":
-    frame = sciter.Window(ismain=True, uni_theme=True)
+    frame = sciter.Window(ismain=False, uni_theme=True)
     frame.load_file("hello.htm")
     frame.expand()
     frame.run_app()

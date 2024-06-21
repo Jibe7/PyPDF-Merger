@@ -1,0 +1,8 @@
+launcher {
+    prototype: Launcher url(launcher.tis);
+    display: block;
+  }
+  
+launcher:expanded > h1 {
+    font-size: 30dip;
+  }
