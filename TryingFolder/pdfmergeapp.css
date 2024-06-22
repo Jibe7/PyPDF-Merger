@@ -1,0 +1,36 @@
+notNormalButton {
+    prototype: NotNormalButton url(pdfmergeapp.js);
+    display: block;
+}
+
+.container {
+    display: block;
+    flow: horizontal;
+    margin: 0;
+    border-spacing: 1*;
+    background-color: #ff3939;
+    border-radius: 25px;
+    height: 96vh;
+}
+
+.input_container {
+    margin: 10px 0 10px *;
+    display: block;
+    background-color: aqua;
+    height: 80%;
+    width: 60vw;
+    border-radius: 25px;
+}
+
+.output_container {
+    margin: 10px * 10px 0;
+    display: block;
+    background-color: blue;
+    height: 80%;
+    width: 30vw;
+    border-radius: 25px;
+}
+
+.input_container > *, .output_container > * {
+    margin: 20px *;
+}
