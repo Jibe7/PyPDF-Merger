@@ -12,10 +12,16 @@ I didn't enjoy learning about Sciter technology that much (does not have all rec
  
 
 **pdfMerger.py** -> script to merge pdf
+
 **main.py** -> basic script to merge pdf
+
 **TryingFolder** -> the actual folder where I was trying to create the app with pysciter. I wrote in its todo.md the steps I thought would allow me to develop the application.
+
 **RunPyScript** -> mix of examples found in the documentation and tryout where I was trying to get the PySciter app (the UI) to call a Python script (the one that has the merge pdf capabilities)
+
 **ExampleFolder** -> Contained example from documentation of PySciter app.
+
   **handler** -> contains an example where the UI calls script defined in Python
+  
   **FirstExampleOpenFolder** -> contains an example supposed to open folders and naviguate in the file system. The use in the project was that I wanted to be able in the UI of merge pdf app to select from the UI the files I wanted to merge and also the output destination folder.
   
